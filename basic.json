@@ -1,0 +1,13 @@
+{
+  "id": "basic-3",
+  "cmd": "python3 -m http.server",
+  "cpus": 0.5,
+  "mem": 32.0,
+  "networks": [ { "mode": "container/bridge" } ],
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "python:3"
+    }
+  }
+}
